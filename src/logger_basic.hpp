@@ -7,6 +7,9 @@
     Original:  https://github.com/DevEnv-Project/logger/blob/master/src/logger_basic.hpp
 */
 
+#ifndef LOGGER_HPP
+#define LOGGER_HPP
+
 /// @brief Logger
 namespace Logger {
     #include <stdio.h>
@@ -104,3 +107,4 @@ namespace Logger {
         free(buffer);
     }
 }
+#endif
